@@ -1,0 +1,36 @@
+.character {
+  display: none;
+  height: 100vh;
+}
+
+.character.selected {
+  display: block;
+}
+
+.content {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  max-width: 380px;
+}
+
+@media (max-width: 769px) {
+  .content {
+    top: -20%;
+    left: 0;
+    max-width: 100vw;
+    padding: 30px;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 425px) {
+  .content {
+    top: -30%;
+  }
+}
