@@ -1,0 +1,27 @@
+.button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.button img {
+  border-radius: 50%;
+}
+
+.button.selected {
+  transform: scale(1.2);
+  box-shadow: 0 0 10px #d9d9d9;
+}
+
+@media (max-width: 769px) {
+  .button img {
+    max-width: 60px;
+  }
+}
+
+@media (max-width: 425px) {
+  .button img {
+    max-width: 50px;
+  }
+}
