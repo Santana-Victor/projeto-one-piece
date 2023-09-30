@@ -1,0 +1,14 @@
+.logo {
+  background-image: url("../../assets/imagens/one-piece-logo.png");
+  background-size: cover;
+  width: 230px;
+  height: 100px;
+  margin-bottom: 35px;
+}
+
+@media (max-width: 425px) {
+  .logo {
+    width: 170px;
+    height: 75px;
+  }
+}
