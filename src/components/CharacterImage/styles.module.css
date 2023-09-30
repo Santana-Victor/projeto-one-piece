@@ -1,0 +1,17 @@
+.character_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 769px) {
+  .character_image {
+    height: 85%;
+  }
+}
+
+@media (max-width: 425px) {
+  .character_image {
+    height: auto;
+  }
+}
