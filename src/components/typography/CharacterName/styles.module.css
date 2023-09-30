@@ -1,0 +1,18 @@
+.character_name {
+  font-size: 48px;
+  font-weight: 400;
+  font-family: "Secular One", sans-serif;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 769px) {
+  .character_name {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 425px) {
+  .character_name {
+    font-size: 24px;
+  }
+}
